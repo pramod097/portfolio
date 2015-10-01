@@ -1,0 +1,295 @@
+.logo{
+	font-size: 25px;
+	font-weight: bold;
+	position: relative;
+	top: 15px;
+	color: #fff;
+	font-family: verdana;
+}
+
+.logo span{
+	color: #e84c3d;
+}
+
+a:hover{
+	color: #fff;
+	text-decoration: none;
+}
+
+.navbar-inverse .nav li a{
+	color: #fff;
+}
+
+.navbar-inverse .nav li a:hover, .navbar-inverse .nav li.active a{
+	background:	#e84c3d;
+}
+
+.navbar{
+	height: 65px;
+}
+
+.navbar-right{
+	margin-top: 7px;
+}
+
+.banner{
+	background: url(../img/bann.jpg) no-repeat center;
+	width: 100%;
+	min-height: 750px;
+	position: relative;
+	background-size: cover;
+	bottom: 20px;
+	display: block;
+}
+
+ul.social-ic-icons{
+	float: right;
+	padding: 1.5em  0 0;
+}
+
+ul.social-ic-icons li{
+	display: inline-block;
+	padding: 0 0.3em;
+}
+
+ul.social-ic-icons li a span{
+	background: url(../img/img-sprite.png) -10px -8px;
+	width: 50px;
+	height: 50px;
+}
+
+.hello{
+	position: relative;
+	padding: 6em 0 6em 16em;
+}
+
+span.arrow{
+	position: absolute;
+	left: 110px;
+	background: url(../img/arrow1.png) no-repeat;
+	width: 90px;
+	height: 215px;
+	top: 0;
+}
+
+.hello h3{
+	font-size: 95px;
+	color: #494f55;
+	margin: 0;
+}
+
+.hello span{
+	font-family: 'Open Sans';
+	margin-left: 15px;
+}
+
+.hello p{
+	font-family: 'Open Sans';
+	font-size: 16px;
+	color: #959595;
+	margin: 0.5em 0 3em;
+}
+
+.btns a{
+	border-radius: 4px;
+	font-size: 1.3em;
+	font-family: 'Open Sans', sans-serif;
+	padding: 0.8em 3em;
+	text-decoration: none;
+	color: #e84c3d;
+}
+
+.btns a.start{
+	border: 1px solid #e84c3d;
+}
+
+.btns a.start:hover{
+	color: #fff;
+	background: #e84c3d;
+	border-radius: 25px;
+}
+
+.btns a.live{
+	background: #e84c3d;
+	color: #fff;
+	border-radius: 25px;
+	margin-left: 15px;
+}
+
+.btns a.live:hover{
+	border: 1px solid #e84c3d;
+	color: #e84c3d;
+	background: #fff;
+	border-radius: 4px;
+}
+
+.services{
+	background: #eee;
+	text-align: center;
+	padding: 40px;
+	min-height: 700px;
+}
+
+.services-top h3,.services-grid h4{
+	color: #494f55;
+	font-size: 2.5em;
+	margin: 0
+}
+
+.services-top h3 span{
+	border-bottom: 3px solid #fff;
+}
+
+.services-top p,.services-grid p{
+	margin: auto;
+	color: #959595;
+	font-size: 1.1em;
+	width: 50%;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.services-top p{
+	margin: 25px auto;
+}
+
+.services-grid h4{
+	font-size: 28px;
+	margin: 25px;
+}
+
+.services-grid p{
+	width: 80%;
+}
+
+.services-bottom{
+	padding: 5em 0;
+}
+
+h5.happy{
+	position: relative;
+	top: 60px;
+	color: #abada1;
+	font-size: 2em;
+}
+
+h5.happy a{
+	text-decoration: none;
+	border-bottom: 1px solid #e84c3d;
+	color: #e84c3d;
+}
+
+h5.happy a:hover{
+	color: #abada1;
+	border: none;
+}
+
+.work{
+	text-align: center;
+	background: url(../img/back.jpg);
+	padding: 50px;
+}
+
+.work h3{
+	margin: 0;
+	font-size: 35px;
+	color: #494f55;
+}
+
+.work-grid{
+	background: #fff;
+	float: left;
+	width: 23.9%;
+	margin-top: 2em;
+	margin-right: 12px;
+	padding: 10px;
+	border: 1px solid #EEEAEA;
+}
+
+
+
+.p1 h6{
+	font-size: 25px;
+	font-family: 'Open Sans', sans-serif;
+	margin: 7px;
+	color: #494f55;
+	font-weight: 600;
+}
+
+.p1 p{
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	font-size: 16px;
+	color: #494f55;
+}
+
+.p1{
+	position: relative;
+}
+
+.right{
+	position: absolute;
+	right: 17px;
+	bottom: 6px;
+}
+
+.in-work{
+	padding: 1em 0;
+}
+
+a.more{
+	font-size: 1.8em;
+	border: 1px solid #EEEAEA;
+	background: #fff;
+	color: #494f55;
+	width: 50%;
+	display: block;
+	text-align: center;
+	padding: 0.3em;
+	font-family: 'Open Sans', sans-serif;
+	margin: 1% 0 0 25%;
+}
+
+a.more:hover{
+	background: #e84c3d;
+	color: #fff;
+}
+
+.work-button{
+	background: #d8d8d8;
+}
+
+#flexiselDemo1{
+	display: none;
+}
+
+.nbs-flexisel-container{
+	position: relative;
+	max-width: 100%;
+}
+
+.nbs-flexisel-ul {
+	position: relative;
+	width: 9999px;
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	text-align: center;
+}
+.nbs-flexisel-inner {
+	overflow: hidden;
+	width:90%;
+	margin: 0 auto;
+}
+.nbs-flexisel-item {
+	float: left;
+	margin: 0px 2em;
+	padding: 0px;
+	cursor: pointer;
+	position: relative;
+	line-height: 0px;
+}
+.nbs-flexisel-item > img {
+	cursor: pointer;
+	position: relative;
+}
+
