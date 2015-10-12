@@ -5,30 +5,33 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/page.css">
-	<script src="js/bootstrap.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.js"></script>
-	<script src="js/jquery.flexisel.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/page.js"></script>
+	
+	
 </head>
 
 <body>
 
-	<nav class="navbar navbar-inverse">
+	<div class="header">
 		<div class="container">
-			<div class="navbar-header">
-				<a href="#" class="logo">SAM<span>FOLIO</span></a>
+			<div class="logo">
+				<a href="#"><h1>SAM<span>FOLIO</span></h1></a>
 			</div>
-
-			<div>
-				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#" class="active">HOME</a></li>
-					<li><a href="#">ABOUT</a></li>
-					<li><a href="#">SERVICES</a></li>
-					<li><a href="#">PORTFOLIO</a></li>
-					<li><a href="#">CONTACT</a></li>
+			<div class="top">
+				<ul>
+					<li class="active"><a href="#" class="scroll">HOME</a></li>
+					<li><a href="#" class="scroll">ABOUT</a></li>
+					<li><a href="#" class="scroll">SERVICES</a></li>
+					<li><a href="#" class="scroll">PORTFOLIO</a></li>
+					<li><a href="#" class="scroll">CONTACT</a></li>
 				</ul>
+				<a href="#" id="pull"><img src="img/menu.png" title="menu"></a>
 			</div>
+			<div class="clearfix"></div>
 		</div>
-	</nav>
+	</div>
 
 	<div class="banner">
 		<div class="container">
@@ -37,29 +40,30 @@
 				<li class="been"><a href="#"><span> </span></a></li>
 				<li class="twitter"><a href="#"><span> </span></a></li>
 			</ul>
+			<div class="clearfix"></div>
 		</div>
 	</div>
 
 
 	<div class="content">
 		<div class="container">
-			<div class="hello">
+			<div class="hello" id="hello">
 				<span class="arrow"> </span>
-				<h3>Hello<span>There</span> !</h3>
+				<h3>Hello <span>There</span> !</h3>
 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passage.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised.</p>
 
-				<div class="btns">
-					<a href="#" class="start">My Work</a>
-					<a href="#" class="live">Hire Me</a>
+				<div class="in-btns">
+					<a href="#" class="startnow">My Work</a>
+					<a href="#" class="livedemo">Hire Me</a>
 				</div>
 
-				<!--<ul class="social">
+				<ul class="in-social">
 					<li class="been"><a class="been" href="#"><span> </span></a></li>
 					<li class="dribble"><a href="#"><span> </span></a></li>
 					<li class="in"><a href="#"><span> </span></a></li>
 					<li class="camera"><a href="#"><span> </span></a></li>
 					<li class="in-line"><a href="#"><span> </span></a></li>
-				</ul>-->
+				</ul>
 				
 			</div>
 		</div>
@@ -89,6 +93,7 @@
 						<h4>BRANDING</h4>
 						<p>Lorem Ipsum is simply dummy text of the typesetting industry.</p>
 					</div>
+					<div class="clearfix"></div>
 				</div>
 				<h5 class="happy">Quick Works of Happy <a href="#">Clients</a></h5>
 			</div>
@@ -97,9 +102,18 @@
 		<div class="work">
 			<div class="container">
 				<h3>Latest Works</h3>
-				<div class="in-work">
+				<div class="work-top">
 					<div class="work-grid">
-						<a href="#"><img class="img-responsive" src="img/pic.jpg" alt=""></a>
+						<a href="#"><img class="img-responsive in-work" src="img/pic.jpg" alt=""></a>
+						<div class="p1">
+							<h6>Title of the post</h6>
+							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem natus error sits</p>
+							<img class="right" src="img/right.png" alt="">
+						</div>
+					</div>
+
+					<div class="work-grid sit">
+						<a href="#"><img class="img-responsive in-work" src="img/pic1.jpg" alt=""></a>
 						<div class="p1">
 							<h6>Title of the post</h6>
 							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem natus error sits</p>
@@ -108,7 +122,16 @@
 					</div>
 
 					<div class="work-grid">
-						<a href="#"><img class="img-responsive" src="img/pic1.jpg" alt=""></a>
+						<a href="#"><img class="img-responsive in-work" src="img/pic2.jpg" alt=""></a>
+						<div class="p1">
+							<h6>Title of the post</h6>
+							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem natus error sits</p>
+							<img class="right" src="img/right.png" alt="">
+						</div>
+					</div>
+
+					<div class="work-grid work-grid-in sit">
+						<a href="#"><img class="img-responsive in-work" src="img/pic3.jpg" alt=""></a>
 						<div class="p1">
 							<h6>Title of the post</h6>
 							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem natus error sits</p>
@@ -117,7 +140,7 @@
 					</div>
 
 					<div class="work-grid">
-						<a href="#"><img class="img-responsive" src="img/pic2.jpg" alt=""></a>
+						<a href="#"><img class="img-responsive in-work" src="img/pic4.jpg" alt=""></a>
 						<div class="p1">
 							<h6>Title of the post</h6>
 							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem natus error sits</p>
@@ -125,8 +148,8 @@
 						</div>
 					</div>
 
-					<div class="work-grid">
-						<a href="#"><img class="img-responsive" src="img/pic3.jpg" alt=""></a>
+					<div class="work-grid sit">
+						<a href="#"><img class="img-responsive in-work" src="img/pic5.jpg" alt=""></a>
 						<div class="p1">
 							<h6>Title of the post</h6>
 							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem natus error sits</p>
@@ -134,8 +157,8 @@
 						</div>
 					</div>
 
-					<div class="work-grid">
-						<a href="#"><img class="img-responsive" src="img/pic4.jpg" alt=""></a>
+					<div class="work-grid in-zoom">
+						<a href="#"><img class="img-responsive in-work" src="img/pic6.jpg" alt=""></a>
 						<div class="p1">
 							<h6>Title of the post</h6>
 							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem natus error sits</p>
@@ -143,32 +166,15 @@
 						</div>
 					</div>
 
-					<div class="work-grid">
-						<a href="#"><img class="img-responsive" src="img/pic5.jpg" alt=""></a>
+					<div class="work-grid work-grid-in in-zoom">
+						<a href="#"><img class="img-responsive in-work" src="img/pic7.jpg" alt=""></a>
 						<div class="p1">
 							<h6>Title of the post</h6>
 							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem natus error sits</p>
 							<img class="right" src="img/right.png" alt="">
 						</div>
 					</div>
-
-					<div class="work-grid">
-						<a href="#"><img class="img-responsive" src="img/pic6.jpg" alt=""></a>
-						<div class="p1">
-							<h6>Title of the post</h6>
-							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem natus error sits</p>
-							<img class="right" src="img/right.png" alt="">
-						</div>
-					</div>
-
-					<div class="work-grid">
-						<a href="#"><img class="img-responsive" src="img/pic7.jpg" alt=""></a>
-						<div class="p1">
-							<h6>Title of the post</h6>
-							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem natus error sits</p>
-							<img class="right" src="img/right.png" alt="">
-						</div>
-					</div>
+					<div class="clearfix"></div>
 				</div>
 			</div>
 			<a class="more" href="#">MORE</a>
@@ -186,21 +192,33 @@
 					<div class="test">
 						<div class="col-md-4">
 							<div class="skill-grid">
-								<div class="every" id="circles-1"></div>
+								<div class="every">
+									<svg width="230" height="230"><path fill="transparent" stroke="#e84c3d" stroke-width="10" d="M 114 5 A 110 110 0 1 1 50 204"></path>
+										<text font-size="4em" font-family="sans-serif" fill="#494f55" x="80" y="135">6%</text>
+									</svg>
+								</div><br><br>
 								<p class="who">PHOTOSHOP</p>
 							</div>
 						</div>
 
 						<div class="col-md-4">
 							<div class="skill-grid">
-								<div class="every" id="circles-1"></div>
+								<div class="every">
+									<svg width="230" height="230"><path fill="transparent" stroke="#e84c3d" stroke-width="10" d="M 114 5 A 110 110 0 1 1 10 149"></path>
+										<text font-size="4em" font-family="sans-serif" fill="#494f55" x="80" y="135">7%</text>
+									</svg>
+								</div><br><br>
 								<p class="who">ILLUSTRATOR</p>
 							</div>
 						</div>
 
 						<div class="col-md-4">
 							<div class="skill-grid">
-								<div class="every" id="circles-1"></div>
+								<div class="every">
+									<svg width="230" height="230"><path fill="transparent" stroke="#e84c3d" stroke-width="10" d="M 114 5 A 110 110 0 1 1 10 81"></path>
+										<text font-size="4em" font-family="sans-serif" fill="#494f55" x="80" y="135">8%</text>
+									</svg>
+								</div><br><br>
 								<p class="who">INDESIGN</p>
 							</div>
 						</div>
@@ -209,29 +227,110 @@
 			</div>
 		</div>
 
-		<script src="js/"></script>
+		<div class="clients">
+			<div class="container">
+				<h3>What our clients think about us</h3>
 
-		<script>
-			var colors= [
-					['#eeeeee', '#e84c3d'], ['#eeeeee', '#e84c3d'], ['#eeeeee', '#e84c3d']
-			];
+				<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="2000">
+					<div class="carousel-inner" role="listbox">
+				        <div class="item active item" >
+				        	<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magnaaliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit e</p>
+				        	<span>Dean Martin</span>
+				        </div>
 
-			for(var i=0;i<=5;i++){
-				var child=document.getElementById('circles-' +i),
-					percentage= 50+(i*10);
+					    <div class="item">
+					        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magnaaliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit e</p>
+				        	<span>Dean Martin</span>
+					    </div>
+					    
+						<div class="item">
+					    	<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magnaaliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit e</p>
+				        	<span>Dean Martin</span>
+						</div>
 
-					circles.create({
-						id: child.id,
-						percentage: percentage,
-						radius: 115,
-						width: 10,
-						number: percentage/10,
-						text: '%',
-						colors: colors[i-1]
-					});
-			}
+					</div>
+				</div>
+			</div>
+		</div>
 
-		</script>
+		<div class="comment">
+			<div class="container">
+				<div class="col-md-6">
+					<a href="#"><img src="img/men.png" class="in-comment"></a>
+					<div class="left-comment">
+						<h6>Subscribe for comment</h6>
+						<p>"Lorem Ipsum is simply dummy text of the printing and typesetting industry..."-<span> John Doe/Company name</span></p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+
+				<div class="col-md-6 email-here">
+					<h6>your email here</h6>
+					<div class="email">
+						<input type="text" value="enter your email id here...">
+					</div>
+					<div class="send">
+						<input type="submit" value="SUBSCRIBE">
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+
+		<div class="contact">
+			<div class="container">
+				<h3>CONTACT</h3>
+				<div class="contact-in">
+					<div class="col-md-6 in-on">
+						<small>to</small>
+						<p>hi@Examplein.com</p>
+						<form>
+							<input type="text" value="Your name">
+							<input type="text" value="">
+							<input type="text" value="">
+							<div class="send1">
+								<input type="submit" value="Send">
+							</div>
+						</form>
+					</div>
+
+					<div class="col-md-6 dot-in">
+						<img src="img/ma.png" class="img-responsive map">
+						<label class='dot'></label>
+						<div class="live">
+							<span>I Live in</span>
+							<p>India</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer">
+			<div class="container">
+				<div class="footer-class">
+					<div class="class-footer">
+						<ul>
+							<li><a href="#" class="scroll">Home</a><span>/</span></li>
+							<li><a href="#" class="scroll">About</a><span>/</span></li>
+							<li><a href="#" class="scroll">Services</a><span>/</span></li>
+							<li><a href="#" class="scroll">Portfolio</a><span>/</span></li>
+							<li><a href="#" class="scroll">Contact</a><span>/</span></li>
+						</ul>
+						<p class="footer-grid">&copy; 2014 Template by<a href="#" target="_blank"> W3layouts</a></p>
+					</div>
+					<ul class="social-in-icons">
+						<li class="facebook"><a href="#"><span> </span></a></li>
+						<li class="twitter"><a href="#"><span> </span></a></li>
+						<li class="inline"><a href="#"><span> </span></a></li>
+					</ul>
+
+				</div>	
+			</div>
+		</div>
+
+		<a href="#" class="toTop"> <span> </span></a>
 
 		  
 
